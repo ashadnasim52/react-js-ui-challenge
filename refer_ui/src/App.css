@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Hind+Siliguri:300,400");
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.App {
+  background-color: #5CD8C6;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 40px;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.links .link-first *,
+.links .link-second *,
+.links .link-third * {
+  display: inline-block;
+  margin: 25px 15px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.links .link-first .logo,
+.links .link-second .logo,
+.links .link-third .logo {
+  text-transform: uppercase;
+}
+
+.links .link-fourth * {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.grid .section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+  padding-left: 70px;
+}
+
+.grid .section1 h1 {
+  text-align: left;
+  font-size: 4.5rem;
+}
+
+.grid .section1 h1 span {
+  padding-top: 5px;
+  padding-bottom: 3px;
+  display: block;
+}
+
+.grid .section1 h3 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.grid .section2 img {
+  width: 350px;
+  height: 450px;
+}
+/*# sourceMappingURL=App.css.map */
