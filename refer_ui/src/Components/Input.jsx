@@ -4,7 +4,17 @@ export class Input extends Component {
   render() {
     return (
       <div>
-        <input className type="text" placeholder="Enter Email Address" />
+        <div className="input">
+          <input
+            className="input-input"
+            type="text"
+            placeholder="Enter Email Address"
+          />
+          <span className="input-icon ">
+            Invite
+            <i class="fas fa-arrow-right" />
+          </span>
+        </div>
       </div>
     );
   }

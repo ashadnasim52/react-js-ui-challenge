@@ -48,8 +48,7 @@ class App extends Component {
           <main className="grid">
             <section className="section section1">
               <h1 className="heading">
-                We value Friendship.
-                <span className="sub-heading">At exactly Rs 2000</span>
+                We value Friendship. At exactly Rs 2000
               </h1>
               <h3>
                 Refer Your fiend to us each will get Rs. 2000 and you will also

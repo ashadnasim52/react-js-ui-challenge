@@ -22,6 +22,12 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 900px) {
+  .links {
+    display: none;
+  }
+}
+
 .links .link-first *,
 .links .link-second *,
 .links .link-third * {
@@ -56,13 +62,28 @@ body {
       grid-template-columns: 1fr 1fr;
 }
 
+@media (max-width: 900px) {
+  .grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 100px;
+  }
+}
+
 .grid .section1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
@@ -77,21 +98,59 @@ body {
 .grid .section1 h1 {
   text-align: left;
   font-size: 4.5rem;
+  margin-top: 55px;
 }
 
 .grid .section1 h1 span {
-  padding-top: 5px;
-  padding-bottom: 3px;
+  margin-bottom: 3px;
   display: block;
 }
 
 .grid .section1 h3 {
   font-weight: 300;
   font-size: 1.4rem;
+  padding-bottom: 35px;
 }
 
 .grid .section2 img {
   width: 350px;
   height: 450px;
+}
+
+@media (max-width: 900px) {
+  .grid .section2 {
+    display: none;
+  }
+}
+
+.input {
+  display: block;
+  overflow: hidden;
+}
+
+.input-input {
+  border: 0;
+  outline: 0;
+  border-radius: 19px;
+  font-size: 1.4rem;
+  padding: 9px 29px;
+  margin: 10px 0;
+  padding-right: 95px;
+  -webkit-box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.input-icon {
+  font-size: 1.4rem;
+  color: #000;
+  left: -70px;
+  position: relative;
+  color: #5CD8C6;
+}
+
+.input-icon i {
+  font-size: 1.2rem;
+  padding-left: 6px;
+  padding-top: 2px;
 }
 /*# sourceMappingURL=App.css.map */
